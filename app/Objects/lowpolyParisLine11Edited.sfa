@@ -1,0 +1,161 @@
+{
+  animations: [
+    {
+      clips: [
+        {
+          name: 'Tram|1398 Tram.001|1398 Tram|1398 TramAction.001|1398 Tram|1398 Tram',
+        },
+        {
+          name: 'Tram|1398 Tram.001|1398 Tram|1398 TramAction|1398 Tram|1398 TramActi',
+        },
+        {
+          name: 'Tram|1398 Tram|1398 Tram|1398 TramAction.001|1398 Tram|1398 TramActi',
+        },
+        {
+          name: 'Tram|1398 Tram|1398 Tram|1398 TramAction|1398 Tram|1398 TramAction',
+        },
+        {
+          name: 'Tram|Tram',
+        },
+      ],
+      path: 'Objects/lowpolyParisLine11Edited.fbx',
+    },
+  ],
+  materials: [
+    {
+      name: 'Mat.002',
+      parameters: [
+        {
+          baseColor: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          baseColorMap: '1398 Tram',
+        },
+        {
+          normalMap: null,
+        },
+        {
+          interpolatedColor: null,
+        },
+        {
+          metallic: 0,
+        },
+        {
+          metallicMap: null,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          roughnessMap: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/fbx_material.sfm',
+    },
+    {
+      name: 'Material.001',
+      parameters: [
+        {
+          baseColor: [
+            0.24148900000000001,
+            0.107601,
+            0.010286,
+            1,
+          ],
+        },
+        {
+          baseColorMap: null,
+        },
+        {
+          normalMap: null,
+        },
+        {
+          interpolatedColor: null,
+        },
+        {
+          metallic: 0,
+        },
+        {
+          metallicMap: null,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          roughnessMap: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/fbx_material.sfm',
+    },
+    {
+      name: 'unnamed material',
+      parameters: [
+        {
+          baseColor: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          baseColorMap: null,
+        },
+        {
+          normalMap: null,
+        },
+        {
+          interpolatedColor: null,
+        },
+        {
+          metallic: 0,
+        },
+        {
+          metallicMap: null,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          roughnessMap: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/fbx_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+      'BoneIndices',
+      'BoneWeights',
+    ],
+    collision: {},
+    file: 'Objects/lowpolyParisLine11Edited.fbx',
+    name: 'lowpolyParisLine11Edited',
+    recenter: 'root',
+  },
+  samplers: [
+    {
+      file: 'C:\\Users\\other\\Desktop\\Tram\\1398 Tram.png',
+      name: '1398 Tram',
+      pipeline_name: 'C:\\Users\\other\\Desktop\\Tram\\1398 Tram.png',
+    },
+  ],
+  version: '0.54:2',
+}

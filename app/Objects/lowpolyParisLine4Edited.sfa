@@ -1,0 +1,188 @@
+{
+  animations: [
+    {
+      clips: [
+        {
+          name: 'Tram|1398 Tram.000|1398 Tram.000|1398 Tram.001|1398 Tram|1398 Tr.000',
+        },
+        {
+          name: 'Tram|1398 Tram.000|1398 Tram.000|1398 Tram.001|1398 Tram|1398 Tr.001',
+        },
+        {
+          name: 'Tram|1398 Tram.000|1398 Tram.000|1398 Tram.001|1398 Tram|1398 TramAc',
+        },
+        {
+          name: 'Tram|1398 Tram.000|1398 Tram.000|1398 TramAction.001|1398 Tram.000|1',
+        },
+        {
+          name: 'Tram|1398 Tram.000|1398 Tram.000|1398 Tram|1398 Tram|1398 TramAc.000',
+        },
+        {
+          name: 'Tram|1398 Tram.000|1398 Tram.000|1398 Tram|1398 Tram|1398 TramAction',
+        },
+        {
+          name: 'Tram|1398 Tram.001|1398 Tram|1398 Tram.000Action|1398 Tram|1398 Tram',
+        },
+        {
+          name: 'Tram|1398 Tram.001|1398 Tram|1398 Tram.001|1398 Tram|1398 TramAc.000',
+        },
+        {
+          name: 'Tram|1398 Tram.001|1398 Tram|1398 Tram.001|1398 Tram|1398 TramAc.001',
+        },
+        {
+          name: 'Tram|1398 Tram.001|1398 Tram|1398 Tram.001|1398 Tram|1398 TramAction',
+        },
+        {
+          name: 'Tram|1398 Tram.001|1398 Tram|1398 TramAction.001|1398 Tram|1398 Tram',
+        },
+        {
+          name: 'Tram|1398 Tram.001|1398 Tram|1398 Tram|1398 Tram|1398 TramAction.001',
+        },
+        {
+          name: 'Tram|1398 Tram.001|1398 Tram|1398 Tram|1398 Tram|1398 TramAction|139',
+        },
+        {
+          name: 'Tram|Tram',
+        },
+      ],
+      path: 'Objects/lowpolyParisLine4Edited.fbx',
+    },
+  ],
+  materials: [
+    {
+      name: 'Mat.002',
+      parameters: [
+        {
+          baseColor: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          baseColorMap: '1398 Tram',
+        },
+        {
+          normalMap: null,
+        },
+        {
+          interpolatedColor: null,
+        },
+        {
+          metallic: 0,
+        },
+        {
+          metallicMap: null,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          roughnessMap: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/fbx_material.sfm',
+    },
+    {
+      name: 'Material.000',
+      parameters: [
+        {
+          baseColor: [
+            0.80000000000000004,
+            0.020229,
+            0.50190299999999999,
+            1,
+          ],
+        },
+        {
+          baseColorMap: null,
+        },
+        {
+          normalMap: null,
+        },
+        {
+          interpolatedColor: null,
+        },
+        {
+          metallic: 0,
+        },
+        {
+          metallicMap: null,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          roughnessMap: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/fbx_material.sfm',
+    },
+    {
+      name: 'unnamed material',
+      parameters: [
+        {
+          baseColor: [
+            1,
+            1,
+            1,
+            1,
+          ],
+        },
+        {
+          baseColorMap: null,
+        },
+        {
+          normalMap: null,
+        },
+        {
+          interpolatedColor: null,
+        },
+        {
+          metallic: 0,
+        },
+        {
+          metallicMap: null,
+        },
+        {
+          roughness: 1,
+        },
+        {
+          roughnessMap: null,
+        },
+        {
+          opacity: null,
+        },
+      ],
+      source: 'build/sceneform_sdk/default_materials/fbx_material.sfm',
+    },
+  ],
+  model: {
+    attributes: [
+      'Position',
+      'TexCoord',
+      'Orientation',
+      'BoneIndices',
+      'BoneWeights',
+    ],
+    collision: {},
+    file: 'Objects/lowpolyParisLine4Edited.fbx',
+    name: 'lowpolyParisLine4Edited',
+    recenter: 'root',
+  },
+  samplers: [
+    {
+      file: 'C:\\Users\\other\\Desktop\\Tram\\1398 Tram.png',
+      name: '1398 Tram',
+      pipeline_name: 'C:\\Users\\other\\Desktop\\Tram\\1398 Tram.png',
+    },
+  ],
+  version: '0.54:2',
+}

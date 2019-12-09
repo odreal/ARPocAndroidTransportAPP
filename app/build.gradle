@@ -1,0 +1,81 @@
+apply plugin: 'com.android.application'
+
+apply plugin: 'kotlin-android'
+
+apply plugin: 'kotlin-android-extensions'
+apply plugin: 'com.google.ar.sceneform.plugin'
+
+android {
+    compileSdkVersion 29
+    buildToolsVersion "29.0.2"
+    defaultConfig {
+        applicationId "com.maxime.poctransportmap"
+        minSdkVersion 26
+        targetSdkVersion 29
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation"org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    implementation 'androidx.appcompat:appcompat:1.1.0'
+    implementation 'androidx.core:core-ktx:1.1.0'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.1'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+    implementation 'com.google.ar.sceneform.ux:sceneform-ux:1.13.0'
+    implementation "com.google.ar.sceneform:animation:1.13.0"
+    implementation 'com.android.support.constraint:constraint-layout:1.1.3'
+
+    implementation "androidx.appcompat:appcompat:1.1.0"
+    implementation 'com.google.android.material:material:1.0.0'
+}
+
+sceneform.asset('Objects/lowpolyParis.fbx',
+        'default',
+        'Objects/lowpolyParis.sfa',
+        'src/main/assets/lowpolyParis')
+
+sceneform.asset('Objects/lowpolyParisLoosesQuality.obj',
+        'default',
+        'Objects/lowpolyParisLoosesQuality.sfa',
+        'src/main/assets/lowpolyParisLoosesQuality')
+
+sceneform.asset('Objects/lowpolyParisLine1Edited.fbx',
+        'default',
+        'Objects/lowpolyParisLine1Edited.sfa',
+        'src/main/assets/lowpolyParisLine1Edited')
+
+sceneform.asset('Objects/lowpolyParisLine4Edited.fbx',
+        'default',
+        'Objects/lowpolyParisLine4Edited.sfa',
+        'src/main/assets/lowpolyParisLine4Edited')
+
+sceneform.asset('Objects/lowpolyParisLine11Edited.fbx',
+        'default',
+        'Objects/lowpolyParisLine11Edited.sfa',
+        'src/main/assets/lowpolyParisLine11Edited')
+
+sceneform.asset('Objects/lowpolyParisLine14Edited.fbx',
+        'default',
+        'Objects/lowpolyParisLine14Edited.sfa',
+        'src/main/assets/lowpolyParisLine14Edited')
+
+sceneform.asset('Objects/lowpolyParisStationsEdited.obj',
+        'default',
+        'Objects/lowpolyParisStationsEdited.sfa',
+        'src/main/assets/lowpolyParisStationsEdited')
